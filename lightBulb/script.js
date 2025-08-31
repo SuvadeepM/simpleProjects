@@ -22,11 +22,8 @@ btn.addEventListener("click", () => {
 // see this. I am using bulb as an element but not declaring it. still the project is working fine. How?
 
 // In browsers, when you give an element an id, the browser automatically creates a global variable with the same name as that id.
-
 // This is not reliable or recommended because:
-
 // It only works in the browser global scope (not in strict mode, ES modules, or Node.js).
-
 // If you had a variable with the same name, it could cause conflicts.
-
 // Modern best practices recommend explicitly selecting elements (like you did with document.getElementById).
+
