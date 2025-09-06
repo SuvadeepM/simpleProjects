@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(119, 232, 176);
+}
+
+#navbar {
+    height: 15%;
+    width: 15%;
+    position: relative;
+    top: 10%;
+    left: 40%;
+
+}
+#navbar h1 {
+    color: blueviolet;
+}
+#navbar p {
+    width: 600px;
+    position: absolute;
+    left: -150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+}
+
+#gamebox {
+    height: 40%;
+    width: 80%;
+    top: 80px;
+    margin: 150px;
+
+}
+
+.box {
+    height: 40px;
+    width: 20%;
+
+}
+
+#scoreboard {
+    font-size: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: rgb(136, 183, 168);
+}
+
+#bubblepage {
+    width: 100%;
+    height: 90%;
+    font-size: 50px;
+    background-color: rgb(79, 183, 148);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+button {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.finishgame {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transition: translate(-50%, -50%);
+
+}
+
+.bubble {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(40, 105, 79);
+    border-radius: 50%;
+    color: white;
+    text-align:center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.bubble:hover {
+    background-color: aqua;
+    color: black
+}
+
+.numbers {
+    background-color: #e2c2c2;
+
+}
