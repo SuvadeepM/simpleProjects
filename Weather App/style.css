@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(140, 229, 167);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbar {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#searchbar input {
+    height: 30px;
+    border-radius: 10px;
+    background-color:yellowgreen;
+}
+
+#searchbar img {
+    width: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* #weather {
+    background-color: rgb(154, 203, 181);
+} */
+
+#weather h1 {
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#weather h2 {
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bottom-portion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#humidity img, #windspeed img {
+    width: 40px;
+}
+
+#humidity {
+    align-items: baseline;
+}
