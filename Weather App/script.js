@@ -4,7 +4,7 @@
 // console.log(inputValue);
 
 const cityName = `new york`;
-const APIKEY = "119decb2507d4e992138f835dc9b95e0";
+const APIKEY = "";
 const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKEY}`;
 
 async function simplfiData() {
@@ -21,3 +21,4 @@ async function simplfiData() {
 }
 
 simplfiData();
+
